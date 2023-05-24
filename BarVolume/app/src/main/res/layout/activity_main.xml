@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/panjang">
+
+   </TextView>
+
+   <EditText
+       android:id="@+id/Ed_panjang"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/panjang"
+       android:importantForAutofill="no"
+       android:inputType="numberDecimal"
+       android:lines="1"
+       android:minHeight="48dp"
+       tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize">
+
+   </EditText>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/lebar">
+
+   </TextView>
+
+   <EditText
+       android:id="@+id/Ed_lebar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/lebar"
+       android:importantForAutofill="no"
+
+       android:inputType="numberDecimal"
+       android:lines="1"
+       android:minHeight="48dp"
+       tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/tinggi">
+
+   </TextView>
+
+   <EditText
+       android:id="@+id/Ed_tinggi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/tinggi"
+       android:importantForAutofill="no"
+
+       android:inputType="numberDecimal"
+       android:lines="1"
+       android:minHeight="48dp"
+       tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize">
+
+   </EditText>
+
+   <Button
+       android:id="@+id/btn_calculate"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="@string/calculate"
+       tools:ignore="VisualLintButtonSize">
+
+   </Button>
+
+   <TextView
+       android:id="@+id/result"
+       android:layout_marginTop="22dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:gravity="center"
+       android:textStyle="bold"
+      android:text="@string/result">
+
+   </TextView>
+
+
+   <Button
+       android:id="@+id/to_page2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Page 2"
+       android:layout_marginTop="10dp">
+   </Button>
+
+   <Button
+       android:id="@+id/toPage3_data"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/page_3_with_data"
+       android:layout_marginTop="10dp">
+   </Button>
+
+   <Button
+       android:id="@+id/toPage4_withObject"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/page_4_with_object"
+       android:layout_marginTop="10dp">
+   </Button>
+   <Button
+       android:id="@+id/dialNumber"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Dial Number"
+       android:layout_marginTop="10dp">
+   </Button>
+   <Button
+       android:id="@+id/btn_move_for_result"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="16dp"
+       android:text="@string/move_with_result" />
+
+   <TextView
+       android:id="@+id/tv_result"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/result2"
+       android:textSize="24sp" />
+</LinearLayout>

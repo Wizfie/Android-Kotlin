@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/shape" />
+
+    <ImageView
+        android:id="@+id/register_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/back_vector"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome OnBoard!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/shape"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:id="@+id/title_login"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_below="@id/title_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/tx2_register"
+        android:text="Let's help you meet up yor task">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly_2"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_below="@id/tx2_register">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/username_regis"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/button_shape">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/regis_email"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/button_shape"
+            >
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:id="@+id/password_regis"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/button_shape"
+            >
+        </EditText> <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Confirm password"
+            android:id="@+id/conf_password_regis"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/button_shape"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_register"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Register">
+
+    </Button>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_register"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tx_1"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/toLogin"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content"
+            android:text=" Login Here!">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

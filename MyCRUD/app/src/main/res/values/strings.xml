@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCRUD</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="simpan">Simpan</string>
+</resources>

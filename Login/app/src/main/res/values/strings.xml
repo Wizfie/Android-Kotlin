@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="textshape2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the ,</string>
+    <string name="textshape1">Get Ready with Super Apps</string>
+    <string name="login">Login</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+</resources>

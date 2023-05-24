@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BarVolume</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result :</string>
+    <string name="data">Data</string>
+    <string name="page_4_with_object">Page 4 With Object</string>
+    <string name="page_3_with_data">Page 3 With Data</string>
+    <string name="object_received">object_received</string>
+    <string name="pilih">Pilih</string>
+    <string name="_200">200</string>
+    <string name="_150">150</string>
+    <string name="_100">100</string>
+    <string name="_50">50</string>
+    <string name="choose_number">Pilih_Nomor</string>
+    <string name="result_from_activity" />
+    <string name="rss">result_from_activity</string>
+    <string name="result2">Result2</string>
+    <string name="move_with_result">Move With Result</string>
+</resources>

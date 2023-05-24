@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/shape" />
+
+    <ImageView
+        android:id="@+id/mainLanding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainlanding"
+        android:layout_below="@id/shape"
+        android:layout_centerHorizontal="true"
+        />
+    
+    <TextView
+        android:id="@+id/textShape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textshape1"
+        android:layout_below="@id/mainLanding"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textShape2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textshape2"
+        android:layout_below="@id/textShape"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/buttonLandingLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textShape2"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:height="50dp"
+        android:text="@string/Login"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/button_shape"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonLandingRegister"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLandingLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="300dp"
+        android:height="50dp"
+        android:text="@string/Register"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/button_shape"
+
+        >
+    </Button>
+</RelativeLayout>

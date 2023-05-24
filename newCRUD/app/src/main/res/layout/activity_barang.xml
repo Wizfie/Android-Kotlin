@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".BarangActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_barang"
+        android:textStyle="bold"
+        android:textSize="30dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Nama Barang"
+        android:inputType="textCapSentences"
+        android:minHeight="48dp"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis barang"
+        android:textStyle="bold"
+        android:textSize="30dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextJenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Jenis Barang"
+        android:inputType="textCapSentences"
+        android:minHeight="48dp"></EditText>
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga barang"
+        android:textStyle="bold"
+        android:textSize="30dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Harga Barang"
+        android:inputType="textCapSentences"
+        android:minHeight="48dp"></EditText>
+
+
+
+</LinearLayout>

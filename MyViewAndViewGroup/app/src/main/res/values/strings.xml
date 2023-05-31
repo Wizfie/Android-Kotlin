@@ -25,4 +25,5 @@
     <string name="dummy_photos">6 photos</string>
     <string name="images">Images</string>
     <string name="imagesprofile">imagesProfile</string>
+    <string name="profile_image">profile</string>
 </resources>

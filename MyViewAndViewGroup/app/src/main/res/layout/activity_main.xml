@@ -21,17 +21,17 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/images"
                 android:scaleType="fitXY"
                 android:src="@drawable/pixel_google"
-                android:contentDescription="@string/images">
+                tools:ignore="ImageContrastCheck">
 
             </ImageView>
 
             <TextView
+                style="@style/TextContent.Small.White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/white"
                 android:layout_gravity="bottom"
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
@@ -40,10 +40,14 @@
                 android:gravity="center_vertical"
                 android:padding="8dp"
                 android:text="@string/dummy_photos"
-                app:drawableStartCompat="@drawable/ic_collections_white_18dp" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/white"
+                app:drawableStartCompat="@drawable/ic_collections_white_18dp"
+                tools:ignore="TextSizeCheck" />
         </FrameLayout>
 
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -62,16 +66,18 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             android:text="@string/stock"
+            style="@style/TextContent.Subtitle"
             />
 
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:lineSpacingMultiplier="1"
             android:text="@string/content_text"
-            tools:ignore="VisualLintLongText" />
+            tools:ignore="VisualLintLongText,TextSizeCheck" />
 
         <TextView
             android:layout_width="match_parent"
@@ -80,6 +86,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
+            style="@style/TextContent.Subtitle"
             android:text="@string/specification" />
 
 
@@ -100,6 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
                 android:text="@string/display"
+                style="@style/TextSpec.Field"
                 android:textSize="14sp"
                 tools:ignore="TextSizeCheck" />
 
@@ -107,6 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                style="@style/TextSpec.Value"
                 android:text="@string/content_specs_display"
                 android:textSize="14sp"
                 tools:ignore="TextSizeCheck" />
@@ -122,12 +131,14 @@
                     android:layout_height="wrap_content"
                     android:text="@string/size"
                     android:textSize="16sp"
+                    style="@style/TextSpec.Field"
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_size"
                     android:textSize="14sp"
                     tools:ignore="TextSizeCheck" />
@@ -143,18 +154,26 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/battery"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_battery"
                     android:textSize="14sp" />
 
 
             </TableRow>
         </TableLayout>
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="@string/seller"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -168,11 +187,13 @@
                 android:id="@+id/profile_image"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/photo_2"
-                android:contentDescription="@string/imagesprofile" />
+                style="@style/TextContent.Subtitle"
+                android:contentDescription="@string/profile_image" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                style="@style/TextContent"
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/profile_image"
                 android:text="@string/my_name" />
@@ -180,12 +201,16 @@
 
         <Button
             android:id="@+id/btn_buy"
+            style="@style/ButtonGeneral"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
+            android:padding="12sp"
             android:text="@string/buy"
+            android:textColor="#212121"
             tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>

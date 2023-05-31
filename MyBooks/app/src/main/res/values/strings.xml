@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">MyBooks</string>
+    <string name="judulbuku">judul_buku</string>
+    <string name="deskripsi">deskripsi</string>
+
+
+    <string-array name="data_name" >
+        <item>Sebuah Seni Untuk Bersikap Bodo Amat by Mark Manson </item>
+        <item>Rich Dad Poor Dad by Robert T. Kiyosaki </item>
+        <item>The 5 Level of Leadership by John C. Maxwell </item>
+        <item>Crushing It!: How Great Entrepreneurs Build Their Business and Influence-and How You Can, Too by Gary Vaynerchuk </item>
+        <item>Bung Karno: Penyambung Lidah Rakyat Indonesia by Cindy Adams </item>
+        <item>A Wrinkle in Time by Madeleine L’Engle </item>
+        <item>Murder on the Orient Express by Agatha Christie </item>
+        <item>Home Cooking ala Xander\'s Kitchen by Junita </item>
+        <item>Norwegian Wood by Haruki Murakami productnation</item>
+        <item>Buya Hamka Berbicara Tentang Perempuan </item>
+        <item>The Naked Traveler 8 - Trinity productnation</item>
+        <item>Mantappu Jiwa Buku Latihan Soal by Jerome Polin Sijabat </item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Buku ini menjadi salah satu buku yang paling laris di antara beberapa buku terkait self improvement. Buku ini merupakan buku terjemahan dari The Subtitle Art of Not Giving a F*ck yang termasuk ke jajaran buku best seller The New York Times dan Washington Post. 
+
+                Pada buku ini, Mark Manson menuliskan bahwa “Kunci untuk kehidupan menjadi lebih baik bukan tentang mempedulikan banyak hal namun tentang memperdulikan hal yang sederhana saja, hanya peduli tentang apa yang benar dan mendesak dan penting”. Menurut Mark kebahagiaan tidak perlu dengan hal yang penuh dengan kemewahan. Namun, kebahagiaan bisa muncul dari hal-hal yang sederhana. 
+
+                Oleh sebab itu, bukU self improvement  best seller ini cocok untuk para overthinker, sehingga akan memprioritaskan hal-hal yang dipikirkan dan tidak menjadi beban berlebih dalam kepala. Cocok untuk kamu yang sedang mencari makna dalam hidup maupun yang sedang berada pada titik terendah dalam hidup. productnation
+        </item>
+        <item>Buku Rich Dad Poor Dad merupakan sebuah buku yang ditulis oleh investor dan pengusaha asal Amerika Serikat yaitu Robert T. Kiyosaki. Buku ini memberikan pemahaman kepada pembaca mengenai pola pikir yang baik mengenai financial apalagi di zaman yang serba canggih ini. 
+
+                Dalam buku ini, Robert menceritakan bagaimana pelajaran dari sudut pandang dua sosok ayah yang berhubungan dengan uang, investasi dan ekonomi global. Kedua ayahnya tersebut berperan kuat dalam mempengaruhi pola pikirnya tentang uang. Rich Dad mewakili pola pikir orang kaya sementara poor dad mewakili pola pikir orang miskin dalam memandang uang.  
+
+                Dirinya secara rinci menepis berbagai mitos-mitos keuangan dunia dengan cara yang logis dan mendalam. Selain itu, buku ini juga mengajak pembaca untuk membangun aset dan memulai sebuah investasi agar uang yang bekerja untuk kita bukan kita yang bekerja untuk uang. Buku ini termasuk kedalam buku bisnis yang best seller dan patut untuk kamu baca.  productnation
+        </item>
+        <item>
+            John C. Maxwell merupakan penulis, pembicara dan pastor dari Amerika yang fokus pada penulisan buku bertemakan kepemimpinan. Dalam buku ini dijelaskan bahwa kepemimpinan bukanlah kemampuan untuk mengendalikan orang lain untuk tujuan tertentu, Namun, kepemimpinan adalah kemampuan untuk mempengaruhi orang lain secara efektif. 
+
+                The 5 Level of Leadership mengkategorikan pemimpin kedalam Position-People, Permission-People, Production-People, People Development-People dan Pinnacle-People yang dapat membantu kita untuk menjadi leader yang efektif. 
+
+                Kepemimpinan harus terus dikembangkan karena semakin baik kamu dalam memimpin, maka semakin baik pula kapasitas organisasnya. Buku ini cocok bagi kamu yang sedang ingin belajar mengenai kepemimpinan yang baik.  productnation
+        </item>
+        <item>
+            Buku ini terdapat 288 halaman, Gary Vaynerchuk akan berbagi inspirasi dan pengajaran mengenai bagaimana mengembangkan bisnis dan personal brands. Tak hanya itu saja, buku ini juga mengajarkan bagaimana cara untuk membuat konten yang menarik sehingga bisa menghasilkan uang. 
+
+                Gary memberikan perspektif unik yang baru terkait perubahan yang terjadi di dunia bisnis dan bagaimana langkah-langkah untuk bertahan dan menghadapi situasi sulit. Selain itu, Ia akan membagikan kisah-kisah inspiratif dari pebisnis sukses. 
+
+                Menurut Gary dalam buku ini, kebanyakan pengusaha sukses memiliki tiga ciri yaitu dedikasi untuk melayani orang lain, memiliki semangat untuk berkontribusi dan memiliki passion untuk mengajar. Jika kamu sedang bekerja sebagai digital marketing atau ingin membangun personal brand maka buku ini merupakan bacaan yang tepat. productnation
+        </item>
+        <item>
+            Buku ini merupakan Otobiografi dari Bung Karno yang telah dicetak ulang berkali-kali sejak pertama kali terbit tahun 1966. Baik itu dari edisi revisi, terdapat beberapa bagian yang memiliki terjemahan yang kurang tepat telah diperbaiki.
+
+                Sehingga para pembaca bisa lebih memaknai kesederhanaan, semangat perjuangan revolusi puluhan tahun silam, dan menambah kecintaan terhadap Tanah Air Indonesia. Melalui buku ini kita mendapatkan pengetahuan segala hal yang menyangkut Bung Karno seperti masa mudanya, perjuangan, ide-ide serta pendidikannya. 
+
+                Buku yang ditulis dengan gaya Bahasa khas Bung Karno ini sangat cocok dibaca oleh kamu yang tertarik pada sejarah presiden RI pertama. Mekipun merupakan buku lama dan antik namun, buku ini memiliki konteks yang masih relevan dibaca hingga saat ini. productnation
+        </item>
+        <item>
+            Buku ini mengisahkan tentang perjuangan anak perempuan bernama Meg berpetualang mencari ayahnya yang menghilang secara misterius di dimensi kelima. Dengan adanya bantuan tiga makhluk langka, Mrs Yang, Nyonya Whatsit dan Mrs. Who, Meg melewati berbagai rintangan untuk menemukan ayahnya.
+
+                Perjalan mereka menuju dimensi kelima untuk melintasi jarak dan waktu. Disanalah kejahatan yang sesungguhnya berada. Kejahatan tersebut mampu merasuki, menjajah dan menguasai pikiran. Mereka kehilangan satu sama lain sanggupkah mereka bertahan dan menyelamatkan ayah Meg yang ditawan?
+
+                Buku cerita Meg ini juga sudah disosialisasikan oleh Walt Disney melalui film dengan judul yang sama pada Februari 2018 lalu. Buku ini sangat cocok dibaca untuk kamu yang menyukai petualangan.   productnation
+        </item>
+        <item>
+            Satu lagi cerita misteri koleksi Agatha Christie. Kali ini drama misteri datang dari kereta Orient Express yang berangkat menuju Yugoslavia dalam badai salju. Seorang pria Amerika terhormat meninggal terbunuh di kereta tanpa meninggalkan banyak petunjuk. Akankah detektif Hercule Poirot menemukan pembunuhnya?
+
+                Buku ini menawarkan kisah yang menarik karena semua orang di dalam gerbong dengan korban memiliki alibi dalam pembunuhan ini. Sang penulis membuat kita merasakan seperti berada dalam kereta Orient Express dan membuat kita berpikir kritis mengenai siapa pembunuh yang sebenarnya. 
+
+                Meski, kisah dalam buku ini telah diadaptasi dalam film, namun membacanya tentu tidak akan kalah menarik. Bagi kamu yang menyukai genre misteri maka buku ini tidak boleh dilewatkan. Hal ini karena suasana yang menegangkan dan alur cerita yang menarik membuat kamu ikut merasakan apa yang dialami para tokoh dalam buku ini.  productnation
+        </item>
+        <item>
+            Apabila kamu hobi memasak di rumah, Junita sudah menyediakan 100 resep hits dari Instagram yang sudah siap kamu coba. Buku ini merupakan buku ketiga yang ditulis oleh Junita setelah buku pertamanya sukses menjadi buku masak pertama di Indonesia yang telah memperolah mega best seller. 
+
+                Junita berbagi bagaimana memasak hidangan ikan, daging, ayam, sayur, gorengan, nasi, mie, bihun, sambal, sop, soto serta hidangan telur-tahu-tempe secara praktis dari bahan-bahan yang mudah diperoleh di pasar tradisional. 
+
+                Buku ini sangat cocok untuk pemula karena penjelasannya lengkap mulai dari bahan, timbangan, cara memasaknya dan jumlah porsinya. Maka dari itu, buku ini menjadi pedoman yang baik bagi kamu yang ingin belajar memasak.  productnation
+        </item>
+        <item>
+            Norwegian Wood menyajikan sebuah kehidupan Toru Watanabe dalam perubahan budaya Jepang dengan berlatar belakang tahun 1969. Novel ini sangat terkenal dikalangan remaja di Jepang dan telah diadaptasi menjadi film dengan judul yang sama dengan novelnya. 
+
+                Murakami merangkai cerita sebuah kehampaan dan kesendirian dengan berbagai konflik secara sederhana dan kuat pada berbagai alur dan tokoh. Dari mulai tentang cinta, kematian, kelainan seksual, depresi, hingga perkara yang berhubungan dengan psikologi lainnya.
+
+                Selain itu, kamu juga akan dibuat bingung dengan cerita-cerita dengan akhir yang menggantung. Walaupun demikian, buku ini tetap menyenangkan untuk dibaca terutama bagi pemula yang belum mengetahui karya Murakami, karena caranya yang cukup realistis dalam menelaah dan mengkritisi kebudayaan Jepang.
+        </item>
+        <item>
+            Buya Hamka dalam buku ini menceritakan lebih jauh bahwa perempuan sangat dimuliakan dalam Islam. Hal tersebut dijabarkan dengan dalil Al-Qur’an, bahwa Allah adalah Maha Pengatur sebaik-baiknya, maupun Al-Hadist.
+
+                Bahkan sejarah hidup Rasulullah yang menjadi teladan sempurna, untuk memuliakan seorang ibu yang telah melahirkan, serta cerita para sahabat dan generasi saleh lainnya. Dalam setiap bab di buku ini membuka wawasan kita mengenai bagaimana hukum  Islam mengatur dengan baik kedudukan perempuan. 
+
+                Buku ini juga mengingatkan umat Islam untuk terus belajar dan menggali Islam dari sumber aslinya, sehingga umat Islam dapat memahami dengan benar, dan bukan dari para orientalis yang kemungkinan besar ada penyakit dalam hatinya. Buku ini merupakan salah satu buku islami best seller yang patut kamu baca terutama bagi perempuan, hal ini karena hukum Islam mengenai perempuan dibahas lengkap dalam buku ini.
+        </item>
+        <item>
+            Buku ini pertama kali diterbitkan pada tahun 2007, sampai saat ini serian The Naked Traveler tetap menjadi pilihan nomor satu sebagai referensi travelling nekat para pelancong. Buku ini juga sudah berhasil difilmkan pada tahun 2017 lalu dengan bintang utama Maudy Ayunda dan Hamish Daud.
+
+                Berisikan tentang catatan pribadi saat berwisata ke tempat-tempat indah yang jarang diketahui orang, buku ini sangat cocok untuk kamu yang anti-mainstream saat berpetualang. Buku ini juga berisikan informasi dan pengalaman yang Trinity dapatkan sebagai travel writer. 
+
+                Dengan membaca buku ini, kamu juga akan mendapatkan tips dan trik saat travelling ke sebuah negara dan yang terpenting kamu pasti akan semakin mencintai negeri sendiri. Namun buku ini merupakan edisi terakhir dari Trinity, setelah menggenapi perjalanannya ke-88 negara di dunia.  
+        </item>
+        <item>
+            Jerome Polin Sijabat dikenal sebagai seorang YouTuber dan selebriti internet, dimana dirinya aktif membuat konten tentang kehidupan pribadinya selama di Jepang dan cara belajar Bahasa Jepang. 
+
+                Sama halnya dengan buku ini yang berisi tentang ‘latihan’ dalam menghadapi masalah atau persoalan di dalam hidupnya. Dimulai dari kelahirannya, sampai keluarganya yang berusaha menyekolahkan di Jepang dengan kondisi ekonomi yang terbatas saat itu. 
+
+                Tak hanya menceritakan sisi sedih atau keluhan saja, namun juga semangat perjuangan Jerome Polin Sijabat. Buku ini sangat cocok untuk kamu yang sedang membutuhkan motivasi dalam hidup. Kisah Jerome dan perjuangannya untuk mengejar impian akan memotivasi kamu bahwa tidak ada yang tidak mungkin selama kamu masih mau terus belajar dan berusaha. Buku ini merupakan salah satu buku motivasi best seller
+        </item>
+    </string-array>
+    
+    <string-array name="data_images">
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/5d64fd0659ad6.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/220pxRich_Dad_Poor_Dad-184x300.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/41DGzSUtbNL-194x300.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/51lcnIDQfL-199x300.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/bung-karno-199x300.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/91cSgrqG93L-204x300.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/ID_HCO2014MTH05MOTOE-199x300.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/9786020379074_Home-Cooking-ala-Xanders-Kitchen_100-Resep-Hits-di-Instagram__w200_hauto.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/5d650383431de.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/jepepe_5174-200x300.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/5d64fc3fa7b77.webp
+        </item>
+        <item>
+            https://cdn1.productnation.co/optimized/1024w/stg/sites/5/5d64fda611907.webp
+        </item>
+
+    </string-array>
+</resources>

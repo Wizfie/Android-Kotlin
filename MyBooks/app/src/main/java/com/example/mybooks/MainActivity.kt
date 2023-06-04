@@ -2,6 +2,8 @@ package com.example.mybooks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
+import android.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mybooks.databinding.ActivityMainBinding
 import com.example.myrecyclerview.ListBooksAdapter
@@ -19,7 +21,10 @@ class MainActivity : AppCompatActivity() {
         list.addAll(getListBooks())
         showRecyclerList()
 
+
+
     }
+
 
     private fun getListBooks() : ArrayList<Books> {
         val dataImages = resources.getStringArray(R.array.data_images)

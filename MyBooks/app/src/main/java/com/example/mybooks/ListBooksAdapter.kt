@@ -1,14 +1,15 @@
 package com.example.myrecyclerview
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.mybooks.Books
+import com.example.mybooks.DetailActivity
 import com.example.mybooks.R
 
 class ListBooksAdapter(private  val listBooks:ArrayList<Books>) :RecyclerView.Adapter<ListBooksAdapter.ListViewHolder>() {
@@ -33,10 +34,11 @@ class ListBooksAdapter(private  val listBooks:ArrayList<Books>) :RecyclerView.Ad
         holder.tvName.text = name
         holder.tvDescription.text = description
         holder.itemView.setOnClickListener {
-            Toast.makeText(
-                holder.itemView.context,
-                "Kamu Memilih " + listBooks[holder.adapterPosition].name, Toast.LENGTH_SHORT
-            ).show()
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+            intentDetail.putExtra("key_name", name)
+            intentDetail.putExtra("key_description", description)
+            intentDetail.putExtra("key_images", images)
+            holder.itemView.context.startActivity(intentDetail)
         }
     }
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

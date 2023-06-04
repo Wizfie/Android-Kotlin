@@ -1,0 +1,109 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Bagian atas layout -->
+    <View
+        android:id="@+id/topBackground"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/bottomBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <!-- Bagian bawah layout -->
+    <View
+        android:id="@+id/bottomBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBackground"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <!-- Komponen scroll -->
+
+    <ImageView
+        android:id="@+id/image_detail"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topBackground"
+        app:layout_constraintVertical_bias="0.101"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:id="@+id/detail_namaBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:text="@string/crushing_it_how_great_entrepreneurs_build_their_business_and_influence_and_how_you_can_too_by_gary_vaynerchuk"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/bottomBackground"
+        app:layout_constraintVertical_bias="0.172"
+        tools:ignore="TextSizeCheck"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.050"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_namaBuku"
+        app:layout_constraintVertical_bias="0.04"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/detail_Deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:text="@string/buku_ini_menjadi_salah_satu_buku_yang_paling_laris_di_antara_beberapa_buku_terkait_self_improvement_buku_ini_merupakan_buku_terjemahan_dari_the_subtitle_art_of_not_giving_a_f_ck_yang_termasuk_ke_jajaran_buku_best_seller_the_new_york_times_dan_washington_post_pada_buku_ini_mark_manson_menuliskan_bahwa_kunci_untuk_kehidupan_menjadi_lebih_baik_bukan_tentang_mempedulikan_banyak_hal_namun_tentang_memperdulikan_hal_yang_sederhana_saja_hanya_peduli_tentang_apa_yang_benar_dan_mendesak_dan_penting_menurut_mark_kebahagiaan_tidak_perlu_dengan_hal_yang_penuh_dengan_kemewahan_namun_kebahagiaan_bisa_muncul_dari_hal_hal_yang_sederhana_oleh_sebab_itu_buku_self_improvement_best_seller_ini_cocok_untuk_para_overthinker_sehingga_akan_memprioritaskan_hal_hal_yang_dipikirkan_dan_tidak_menjadi_beban_berlebih_dalam_kepala_cocok_untuk_kamu_yang_sedang_mencari_makna_dalam_hidup_maupun_yang_sedang_berada_pada_titik_terendah_dalam_hidup_productnation"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck,VisualLintBounds,VisualLintLongText" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

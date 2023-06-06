@@ -1,9 +1,11 @@
 package com.example.mybooks
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuInflater
 import android.view.MenuItem
-import android.widget.Toolbar
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mybooks.databinding.ActivityMainBinding
 import com.example.myrecyclerview.ListBooksAdapter
@@ -22,17 +24,42 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
 
 
+    }
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater: MenuInflater = menuInflater
+        inflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+
+            R.id.menu_about -> {
+                val moveAbout = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(moveAbout)
+
+                true
+
+            }
+
+
+            else -> {
+                super.onOptionsItemSelected(item)
+            }
+        }
     }
 
 
-    private fun getListBooks() : ArrayList<Books> {
+    private fun getListBooks(): ArrayList<Books> {
         val dataImages = resources.getStringArray(R.array.data_images)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataName = resources.getStringArray(R.array.data_name)
+        val dataLink = resources.getStringArray(R.array.data_link)
         val listBooks = ArrayList<Books>()
-        for (i in dataName.indices){
-            val books = Books(dataName[i], dataDescription[i],dataImages[i])
+
+        for (i in dataName.indices) {
+            val books = Books(dataName[i], dataDescription[i], dataImages[i],dataLink[i])
             listBooks.add(books)
         }
         return listBooks

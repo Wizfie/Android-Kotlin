@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/wave"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Image_profile"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gambar"
+        android:contentDescription="img" />
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="match_parent"
+        android:layout_below="@id/Image_profile"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/Names"
+        android:layout_marginTop="35dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tx_email"
+        android:layout_below="@id/tx_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</RelativeLayout>

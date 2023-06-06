@@ -26,10 +26,11 @@ class ListBooksAdapter(private  val listBooks:ArrayList<Books>) :RecyclerView.Ad
     override fun getItemCount(): Int = listBooks.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, images) = listBooks[position]
+        val (name, description, images,pembelian) = listBooks[position]
         Glide.with(holder.itemView.context)
             .load(images)
             .into(holder.imgBooks)
+
 
         holder.tvName.text = name
         holder.tvDescription.text = description
@@ -38,6 +39,7 @@ class ListBooksAdapter(private  val listBooks:ArrayList<Books>) :RecyclerView.Ad
             intentDetail.putExtra("key_name", name)
             intentDetail.putExtra("key_description", description)
             intentDetail.putExtra("key_images", images)
+            intentDetail.putExtra("key_link",pembelian)
             holder.itemView.context.startActivity(intentDetail)
         }
     }

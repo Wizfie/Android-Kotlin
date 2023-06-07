@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LikesApp</string>
+    <string name="dislike">dislike</string>
+    <string name="like">like</string>
+    <string name="apakah_anda_suka_bermain">Apakah Anda Suka Bermain?</string>
+    <string name="image">Image</string>
+</resources>
